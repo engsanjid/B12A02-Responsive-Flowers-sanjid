@@ -1,0 +1,82 @@
+nav{
+    display: flex;
+   justify-content: space-between;
+   margin: 30px 150px 120px 150px;
+}
+.item-nav{
+display: flex;
+gap: 48px;
+
+}
+.black-color{
+    color: #000000;
+}
+.red-color{
+    color: #E95A08;
+}
+.bannar{
+    display: flex;
+}
+.margin{
+margin: 120px 150px;
+
+}
+section > div > h1{
+font-size: 65px;
+}
+.Plants-section-title{
+    text-align: center;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+text-align: center;
+
+}
+.button{
+   background-color: #E95A08;
+   color: #FFFFFF; 
+   width: 270px;
+   height: 50px;
+   font-size: 16px;
+   padding: 19px 53.5px;
+}
+.flowers{
+    margin-bottom: 30px;
+}
+.Plants-Lover-Section-container{
+    display: flex;
+    
+}
+.Plants-Lover{
+padding-left: 60px;
+padding-top: 38px;
+padding-bottom: 38px;
+}
+.info-list li {
+        font-size: 22px;
+        margin-bottom: 20px; 
+    }
+    .Join-Section{
+        text-align: center;
+        background-image: url('../assets/news-letter-bg.png');
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 300px;
+
+    }
+    .Join-Section-h1{
+        color: #FFFFFF;
+        font-size: 50px;
+    font-weight: bold;
+    }
+    .Subscribe-email{
+display: flex;
+
+    }
+    .email{
+        padding: 15.5px 540px 15.5px 20px;
+      font-size: 13px;
+        color: #000000;
+    }
