@@ -285,3 +285,127 @@ footer {
 .deal-card p, .deal-card .deal-text {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
+/* Mobile Responsiveness (max-width: 768px) */
+@media (max-width: 768px) {
+  
+    nav {
+        margin: 20px 0; 
+        padding: 0; 
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+
+    .bannar img {
+        width: 100%;
+        height: auto;
+        margin: 0; 
+        display: block;
+    }
+    
+    .Join-Section {
+        padding: 80px 0; 
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+
+    footer {
+        padding: 30px 0; 
+        margin: 0; 
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+.margin {
+        margin: 50px 16px; 
+        box-sizing: border-box; 
+    }
+    
+ 
+    .bannar {
+        flex-direction: column-reverse;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 16px; 
+        margin-right: 16px; 
+        box-sizing: border-box;
+    }
+
+   
+    .bannar > div:first-child {
+        width: 100%; 
+        box-sizing: border-box;
+        word-wrap: break-word; 
+        overflow-wrap: break-word; 
+    }
+
+    section > div > h1 {
+        font-size: 40px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .Plants-section-title {
+        text-align: center;
+        margin-left: 16px; 
+        margin-right: 16px; 
+        box-sizing: border-box;
+    }
+
+    .Plants-section-title h1 {
+        font-size: 36px;
+    }
+
+    .Plants-section-title p {
+        font-size: 14px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0 16px; 
+        box-sizing: border-box;
+    }
+
+    .button {
+        width: 100%;
+        padding: 15px 0;
+        box-sizing: border-box;
+    }
+
+    .Plants-Lover-Section-container {
+        flex-direction: column;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 16px; 
+        margin-right: 16px; 
+        padding: 20px 0; 
+        box-sizing: border-box;
+    }
+
+    .plants-lover-image-container {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .plants-lover-image-container img:last-child {
+        display: none;
+    }
+
+    .Plants-Lover h2 {
+        font-size: 28px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .info-list {
+        padding-left: 20px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .info-list li {
+        font-size: 14px;
+    }
+}
