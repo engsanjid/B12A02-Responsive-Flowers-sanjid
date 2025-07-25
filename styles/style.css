@@ -480,11 +480,9 @@ footer {
         width: 100%;
         text-align: center;
     }
-
     .footer-list li {
         margin-bottom: 15px;
     }
-
     .social-icons {
         justify-content: center;
     } 
